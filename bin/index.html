@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>TaskApp API</title>
+</head>
+<body>
+	<a href="/rest/exercise/all" />show all exercises
+	</a>
+	<br>
+	<a href="/rest/exercise/id/1"> 1 </a> <br>
+	<a href="/rest/exercise/id/2"> 2 </a> <br>
+	<a href="/rest/exercise/id/3"> 3 </a> <br>
+	<a href="/rest/exercise/id/4"> 4 </a> <br>
+	<a href="/rest/exercise/id/5"> 5 </a>
+	<hr>
+	<form method="post" action="/rest/exercise/create/">
+		<!-- TODO add a select here for type -->
+		<textarea name="description"> no description</textarea>
+		<br> <input type="submit" value="create a new Exercise">
+	</form>
+	<hr>
+	<form method="post" action="/rest/exercise/update/">
+		<input type="text" name="id" value="1"><br>
+		<textarea name="description"> no description</textarea>
+		<br> <input type="submit" value="update the Exercise">
+	</form>
+</body>
+</html>

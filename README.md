@@ -1,4 +1,6 @@
-# TaskApp
+# WorknRest
+
+This rest service helps creating and editing exercises and saving the start time / duration for every exercise.
 
 ## Technologies used in the project
 
